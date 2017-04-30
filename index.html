@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <header>
   	<div class="header_top_line">
   		<div class="container_top_line">
-  			<a href="index.html">Техномарт</a>
+  			<a class="main_title" href="index.html">Техномарт</a>
   			<form action="#">
-  				<input type="search" name="search" class="search" value="ПОИСК">
+        <label for="search">Поиск:</label>
+  				<input type="search" name="search" class="search" id="search">
   			</form>
   			<a href="#" class="bookmarks">Закладки
           <div class="bookmarks_quantity">:0</div>
@@ -90,13 +92,13 @@
 				</div>
 				<div class="slider">
 					<div class="slider_page1">
-						<img src="http://placehold.it/150x100" alt="Крутая дрель">
+						<img src="img/slider-drills.jpg" alt="Крутая дрель">
 						<div class="slider_title">ДРЕЛИ</div>
 						<div class="slider_discription">Соседям на радость</div>
 						<a href="#">Открыть каталог</a>
 					</div>
 					<div class="slider_page2">
-						<img src="http://placehold.it/150x100" alt="Крутой ремонт">
+						<img src="img/slider-perforators.jpg" alt="Крутой ремонт">
 						<div class="slider_title">ПЕРФОРАТОРЫ</div>
 						<div class="slider_discription">Настоящие мужские игрушки</div>
 						<a href="#">Открыть каталог</a>
@@ -111,21 +113,21 @@
   			</div>
   			<div class="goods_container">
   				<article class="goods_item">
-  					<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+  					<img src="img/drill-1.jpg" alt="Описание,цена продкута">
   					<div class="goods_title">Перфоратор BOSCH</div>
   					<div class="goods_model">BFG 9000</div>
   					<div class="discount_price">32500 Р.</div>
   					<a href="#">25500 Р.</a>
    				</article>
    				<article class="goods_item">
-  					<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+  					<img src="img/drill-2.jpg" alt="Описание,цена продкута">
   					<div class="goods_title">Перфоратор BOSCH</div>
   					<div class="goods_model">BFG 3000</div>
   					<div class="discount_price">22500 Р.</div>
   					<a href="#">25500 Р.</a>
    				</article>
    				<article class="goods_item">
-  					<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+  					<img src="img/drill-3.jpg" alt="Описание,цена продкута">
   					<div class="goods_title">Перфоратор BOSCH</div>
   					<div class="goods_model">BFG 6000</div>
   					<div class="discount_price">30500 Р.</div>
@@ -133,60 +135,58 @@
    				</article>
    				<article class="goods_item">
    					<div class="tape_new">new</div>
-  					<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+  					<img src="img/drill-1.jpg" alt="Описание,цена продкута">
   					<div class="goods_title">Перфоратор BOSCH</div>
   					<div class="goods_model">BFG 2000</div>
   					<a href="#">25500 Р.</a>
    				</article>
-   				\
-
   			</div>
   		</section>
   		<section class="popular_manufacturers">
   			<div class="section_header">
-  				<div class="section_title">Популярные производители</div>
+  				<div class="section_title">Популярные производители:</div>
 				<a class="btn button_section" href="#">Все популярные товары</a>
 			</div>
 			<div class="manufacturers_filter">
 				<ul>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор BOSCH">
+              <img src="img/brands-bosch.png" alt="Перфоратор BOSCH">
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор MAKITA">     
+              <img src="img/brands-makita.png" alt="Перфоратор MAKITA">     
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор DEWALT">  
+              <img src="img/brands-dewalt.png" alt="Перфоратор DEWALT">  
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор ИНТЕРСКОЛ">  
+              <img src="img/brands-interskol.png" alt="Перфоратор ИНТЕРСКОЛ">  
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор HITACHI">  
+              <img src="img/brands-hitachi.png" alt="Перфоратор HITACHI">  
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор LG">  
+              <img src="img/brands-lg.png" alt="Перфоратор LG">  
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор AEG">
+              <img src="img/brands-aeg.png" alt="Перфоратор AEG">
             </a>
           </li>
 					<li>
             <a href="#">
-              <img src="http://placehold.it/150x100" alt="Перфоратор METABO">
+              <img src="img/brands-metabo.png" alt="Перфоратор METABO">
             </a>
           </li>
 				</ul>
@@ -212,7 +212,7 @@
 				        </p>
            </div>
   			</div>
-  			<img src="http://placehold.it/150x100" alt="Фургон доставки">
+  			<img src="img/delivery-slide.png" alt="Фургон доставки">
   	</div>
 	<div class="info_content">
 		<div class="company_info">
@@ -232,7 +232,7 @@
 			<div class="contacts_title">Контакты</div>
 			<p>Вы можете забрать товар сами,заехав в наш офис:</p>
 			<div class="open_map">
-        <img src="http://placehold.it/150x100" alt="Адресс на карте">
+        <img src="img/map.png" alt="Адресс на карте">
         <a href="#"></a>
       </div>
 			<a class="btn message_button" href="#">Заблудились? Напишите нам!</a>

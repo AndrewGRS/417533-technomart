@@ -1,0 +1,47 @@
+body {
+	font-family: 'Cuprum', sans-serif;
+	background-color: #f1f5f7;
+}
+
+.main_title {
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+}ы
+
+header {
+	font-family: 'Cuprum', sans-serif;
+}
+
+header div.container_top_line {
+	font-size: 17px;
+	line-height: 18px;
+}
+.login_block {
+	font-size: 21px;
+	line-height: 18px;
+}
+.category_title {
+	font-size: 24px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.slider_title {
+	font-size: 36px;
+	line-height: 30px;
+	font-style: bold;
+}
+
+.section_title {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+}
+
+.button_section {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+

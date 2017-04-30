@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   	<header>
   	<div class="header_top_line">
   		<div class="container_top_line">
-  			<a href="index.html">Техномарт</a>
+  			<a class="main_title" href="index.html">Техномарт</a>
   			<form action="#">
-  				<input type="search" name="search" class="search" id="search1" placeholder="Что ищем ?">
-  				<label for="search1">Поиск:</label>
+        <label for="search">Поиск:</label>
+  				<input type="search" name="search" class="search" id="search">
   			</form>
   			<a href="#" class="bookmarks">Закладки
-				<div class="bookmarks_quantity">:0</div>
-  			</a>
+          <div class="bookmarks_quantity">:0</div>
+        </a>
   			<a href="#" class="cart">Корзина</a>
   			<a href="#" class="checkout">Оформить заказ</a>
   		</div>
@@ -31,11 +32,9 @@
   					<p class="phone">+7 (812) 555-05-55</p>
   					<p class="adress">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
   				</section>
-  				<div class="user_profile">
-  					<div class="user_name">Равшан Джамшутович</div>
-  					<a  href="#">Мои заказы</a>
-  					<a href="#">Личный кабинет</a>
-  					
+  				<div class="login_block">
+  					<a href="#">Войти</a>
+  					<a href="#">Регистрация</a>
   				</div>
   				<nav class="header_main_navigation">
   						<ul>          
@@ -64,14 +63,6 @@
   				</nav>
   			</div>
   		</div>
-  	</div>
-  	<div class="breadcrumbs">
-  		<ul>
-  			<li><a class="home_icon" href="index.html"></a></li>
-  			<li><a href="#">Каталог</a></li>
-  			<li><a href="#">Инструмент</a></li>
-  			<li><a href="#">Перфораторы</a></li>
-  		</ul>
   	</div>
   </header>
   <main>
@@ -146,63 +137,57 @@
 				<div class="catalog_drill">
 					<article class="drill">
 							<div class="tape_new">new</div>
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-1.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-2.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-3.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
-  						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
-  						<div class="discount_price">32500 Р.</div>
-  						<a href="#">25500 Р.</a>
-					</article>
-					<article class="drill">
-							<div class="tape_new">new</div>
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
-  						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
-  						<div class="discount_price">32500 Р.</div>
-  						<a href="#">25500 Р.</a>
-					</article>
-					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
-  						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
-  						<div class="discount_price">32500 Р.</div>
-  						<a href="#">25500 Р.</a>
-					</article>
-					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-1.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
 							<div class="tape_new">new</div>
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-2.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-3.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
 					</article>
 					<article class="drill">
-						<img src="http://placehold.it/150x100" alt="Описание,цена продкута">
+						<img src="img/drill-1.jpg" alt="Описание,цена продкута">
+  						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
+  						<div class="discount_price">32500 Р.</div>
+  						<a href="#">25500 Р.</a>
+					</article>
+					<article class="drill">
+							<div class="tape_new">new</div>
+						<img src="img/drill-2.jpg" alt="Описание,цена продкута">
+  						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
+  						<div class="discount_price">32500 Р.</div>
+  						<a href="#">25500 Р.</a>
+					</article>
+					<article class="drill">
+						<img src="img/drill-3.jpg" alt="Описание,цена продкута">
   						<div class="goods_model">Перфоратор BOSCH BFG 9000</div>
   						<div class="discount_price">32500 Р.</div>
   						<a href="#">25500 Р.</a>
