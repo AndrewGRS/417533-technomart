@@ -1,3 +1,5 @@
+﻿@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 body {
 	font-family: 'Cuprum', sans-serif;
 	background-color: #f1f5f7;
@@ -7,10 +9,10 @@ body {
 	font-size: 24px;
 	line-height: 24px;
 	color: #fff;
-}ы
+}
 
 header {
-	font-family: 'Cuprum', sans-serif;
+	
 }
 
 header div.container_top_line {
@@ -44,4 +46,7 @@ header div.container_top_line {
 	line-height: 18px;
 }
 
+.goods_container {
+	font-family: 'PT Sans', sans-serif;
+}
 
